@@ -564,11 +564,26 @@ video {
   margin-top: 1.75rem;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 .line-clamp-3 {
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
+}
+
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .flex {
@@ -620,6 +635,22 @@ video {
   height: 100%;
 }
 
+.h-60 {
+  height: 15rem;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[60\%\] {
+  height: 60%;
+}
+
+.h-72 {
+  height: 18rem;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -660,6 +691,26 @@ video {
   width: 300px;
 }
 
+.w-\[120px\] {
+  width: 120px;
+}
+
+.w-48 {
+  width: 12rem;
+}
+
+.w-56 {
+  width: 14rem;
+}
+
+.w-60 {
+  width: 15rem;
+}
+
+.w-72 {
+  width: 18rem;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -694,6 +745,12 @@ video {
 
 .gap-6 {
   gap: 1.5rem;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .rounded {
@@ -777,6 +834,18 @@ video {
 
 .pr-3 {
   padding-right: 0.75rem;
+}
+
+.pb-8 {
+  padding-bottom: 2rem;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
+.pb-32 {
+  padding-bottom: 8rem;
 }
 
 .text-left {
