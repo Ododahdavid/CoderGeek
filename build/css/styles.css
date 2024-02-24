@@ -544,6 +544,18 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.sticky {
+  position: sticky;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
