@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.centerContainer{
+    @apply flex justify-center items-center
+}
+.button{
+    @apply py-2 h-fit bg-button-color px-2 rounded text-white flex justify-center items-center
+}
+.bcg-set{
+    @apply bg-center bg-no-repeat bg-contain
+}
+/* .hero{
+    @apply 
+} */
