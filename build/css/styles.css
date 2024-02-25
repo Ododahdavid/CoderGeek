@@ -995,6 +995,10 @@ video {
     flex-direction: row;
   }
 
+  .md\:justify-end {
+    justify-content: flex-end;
+  }
+
   .md\:overflow-x-auto {
     overflow-x: auto;
   }
