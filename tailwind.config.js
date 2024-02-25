@@ -2,6 +2,7 @@
 module.exports = {
   content: ['build/*.html'],
   theme: {
+    
     extend: {
       colors: {
         'bcg-color-dark': "#16171B",

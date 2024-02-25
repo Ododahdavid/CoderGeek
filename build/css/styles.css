@@ -715,10 +715,6 @@ video {
   justify-content: flex-start;
 }
 
-.justify-end {
-  justify-content: flex-end;
-}
-
 .justify-center {
   justify-content: center;
 }
@@ -966,6 +962,20 @@ video {
   outline-color: #1d4ed8;
 }
 
+@media (min-width: 640px) {
+  .sm\:w-full {
+    width: 100%;
+  }
+
+  .sm\:min-w-\[100px\] {
+    min-width: 100px;
+  }
+
+  .sm\:min-w-\[150px\] {
+    min-width: 150px;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:block {
     display: block;
@@ -981,6 +991,10 @@ video {
 
   .md\:w-\[900px\] {
     width: 900px;
+  }
+
+  .md\:min-w-24 {
+    min-width: 6rem;
   }
 
   .md\:min-w-36 {
