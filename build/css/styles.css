@@ -651,6 +651,10 @@ video {
   height: 18rem;
 }
 
+.h-56 {
+  height: 14rem;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -794,6 +798,11 @@ video {
   background-color: rgb(34 35 39 / var(--tw-bg-opacity));
 }
 
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .bg-bcg-img {
   background-image: url('../IMG/Coder-geek-Main-Header-image.png');
 }
@@ -881,6 +890,19 @@ video {
   line-height: 1.75rem;
 }
 
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-\[15px\] {
+  font-size: 15px;
+}
+
+.text-\[12px\] {
+  font-size: 12px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -893,6 +915,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
 }
 
 .shadow-custom-inset {
