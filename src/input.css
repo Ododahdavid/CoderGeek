@@ -8,6 +8,12 @@
 .button{
     @apply py-2 h-fit w-fit bg-button-color px-4 rounded-lg text-white flex justify-center items-center
 }
+.active{
+    @apply py-2 h-fit w-fit bg-button-color px-4 rounded-lg text-white flex justify-center items-center
+}
+.category-card{
+    @apply basis-56 h-56 bg-bcg-color-dark rounded m-[10px] centerContainer hover:outline hover:outline-blue-700 hover:outline-4
+}
 .bcg-set{
     @apply bg-center bg-no-repeat bg-contain
 }
