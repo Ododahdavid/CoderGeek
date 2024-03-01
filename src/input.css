@@ -17,6 +17,6 @@
 .bcg-set{
     @apply bg-center bg-no-repeat bg-contain
 }
-/* .hero{
-    @apply 
-} */
+.formInput{
+    @apply sm:min-w-[100px] w-[300px] h-[30px] text-black p-3 rounded focus:outline focus:outline-4 focus:outline-blue-700 mt-4
+}
